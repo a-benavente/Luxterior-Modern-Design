@@ -1,0 +1,34 @@
+:root{
+    --green-lightest: #ebf7e3;
+    --green-light: #a2bb90;
+    --green-medium: #66B032;
+    --green-dark: #375F1B;
+    --green-darkest: #1b3409;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+    min-height: 1000px;
+}
+
+body {
+
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--green-light);
+    min-height: 1000px;
+
+
+    
+}

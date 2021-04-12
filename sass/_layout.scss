@@ -1,0 +1,182 @@
+.container {
+    max-width: 125rem;
+    margin: 5rem auto;
+    border-radius: 30px;
+    top: 0;
+    bottom: 0;
+    min-height: 1000px;
+
+}
+
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+}
+
+.navbar {
+
+    width: 38%;
+   
+
+   &__list {
+
+    display: flex;
+    justify-content: space-between;
+   }
+    &__item {
+        
+        
+    }
+
+    &__link:link,
+    &__link:visited{
+
+          
+        
+    }
+
+}
+
+.intro {
+
+    position: relative;
+    padding-bottom: 9rem;
+
+    &__text {
+        display: inline-block;
+        position: absolute;
+        padding: 4rem 8rem;
+        z-index: 10;
+        border-radius: 0 5px 5px 0;
+        width: 35%;
+        margin-top: 10rem;
+        
+    }
+
+    &__img{
+
+
+        display: inline-block;
+        margin-top: 5rem;
+        position: relative;
+        // margin: 5rem 12rem;
+        // border-radius: 5px;
+        z-index: 10;
+    }
+
+    &__figure {
+        transform: translateX(40rem);
+        display: inline-block;
+
+    }
+
+   
+}
+
+
+
+.hollow-square {
+    // position: absolute;
+    // margin-left: 33rem;
+    display: inline-block;
+    transform: translateX(-79rem) translateY(3.5rem);
+
+
+}
+
+
+.full-square{
+    display: inline-block;
+    position: relative;
+    transform: translateX(-20rem) translateY(3.5rem);
+    z-index: 12;
+    
+    // padding: 3.5rem;
+
+}
+
+.intro__icon{
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+
+    fill: var(--green-lightest);
+    
+}
+
+.benefits {
+
+    padding-bottom: 5rem;
+
+    &__content {
+        margin: 7rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__text {
+
+        flex: 0 0 22%;
+    }
+
+    &__paragraph{
+
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+    &__header {
+    }
+}
+
+
+.qualifications {
+
+    height: 80%;
+    display: flex;
+    margin: 9rem;
+
+    &__text {
+        margin: 1rem 8rem;
+    }
+    &__img {
+
+        height: 35%;
+        width: 35%;
+
+    }
+
+    &__stats {
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 4rem;
+
+    }
+}
+
+.process {
+    display: flex;
+    margin: 3rem 10rem;
+
+    &__text {
+
+        margin-right: 6rem;
+
+    }
+
+    &__img {
+
+        width: 100%;
+        height: 100%;
+    }
+
+}
